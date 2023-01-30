@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    border: 0px;
+    margin: 0px;
+  }
+
+#root {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e0fd870d-aa7c-4ad2-aa65-f27802822b24/d2ymk4d-6f813d12-33b7-47cb-8213-b02112fe543d.jpg/v1/fill/w_900,h_507,q_75,strp/twilight_wallpaper_by_teamwerepire_d2ymk4d-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTA3IiwicGF0aCI6IlwvZlwvZTBmZDg3MGQtYWE3Yy00YWQyLWFhNjUtZjI3ODAyODIyYjI0XC9kMnltazRkLTZmODEzZDEyLTMzYjctNDdjYi04MjEzLWIwMjExMmZlNTQzZC5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.VDH6ph6rEJtNVnFrSg5PfQE8-449SnKl2Ss76Z-mQtY');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#app {
+    text-align: center;
+}
+
+#app button {
+    padding: 5px;
+    margin: 5px;
+}
