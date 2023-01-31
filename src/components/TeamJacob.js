@@ -2,8 +2,8 @@ import React from "react";
 
 function TeamJacob() {
     return (
-        <div>
-            <h1>testing route</h1>
+        <div className = 'team'>
+            <img src = "./fonts/teamjacob_header.gif" alt = "we are team jacob" />
         </div>
     )
 }
