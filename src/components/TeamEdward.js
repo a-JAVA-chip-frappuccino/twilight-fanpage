@@ -1,6 +1,7 @@
 import React from "react";
 
 import RandomQuote from "./RandomQuote";
+import EdwardComments from "./EdwardComments";
 
 function TeamEdward() {
 
@@ -18,7 +19,7 @@ function TeamEdward() {
                 </p>
             </div>
             <div className = 'align-right'>
-                
+                <EdwardComments />
             </div>
         </div>
     )
