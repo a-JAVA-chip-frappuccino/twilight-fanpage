@@ -1,14 +1,13 @@
 import React from "react";
 
-function TeamEdward() {
+import RandomQuote from "./RandomQuote";
 
-    fetch("http://localhost:3000/quotes")
-    .then((response) => response.json)
-    .then((quote) => console.log(quote))
+function TeamEdward() {
 
     return (
         <div className = 'team'>
             <img src = "./fonts/teamedward_header.gif" alt = "we are team edward" />
+            <RandomQuote />
         </div>
     )
 }
