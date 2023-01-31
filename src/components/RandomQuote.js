@@ -1,14 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 function RandomQuote() {
 
     const [quote, setQuote] = useState('');
     
-    fetch("http://localhost:8004/quotes")
-        .then((response) => response.json())
-        .then((quotes) => renderRandomQuote(quotes))
+    useEffect(() => {
+        fetch("http://localhost:8004/quotes")
+            .then((response) => response.json())
+            .then((quotes) => renderRandomQuote(quotes))
+    }, [])
 
     function renderRandomQuote(quotes) {
+        console.log("here")
         const randInt = Math.floor(Math.random(1) * quotes.length);
         setQuote(quotes[randInt].quote);
     }
