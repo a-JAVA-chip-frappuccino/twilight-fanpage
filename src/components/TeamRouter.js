@@ -1,8 +1,13 @@
 import React from "react";
 
+import TeamEdward from "./TeamEdward";
+import TeamJacob from "./TeamJacob";
+
 function TeamRouter( {team} ) {
     return (
-        <h1>properly working route</h1>
+        <div>
+            { (team === 'edward') ? <TeamEdward /> : <TeamJacob /> }
+        </div>
     )
 }
 

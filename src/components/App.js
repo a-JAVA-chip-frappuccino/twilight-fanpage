@@ -15,19 +15,24 @@ function App() {
             setClicked(true);
             setTeam('jacob');
       }
-
-      return (
-            <div id = 'app'>
-                  <h1>Edward or Jacob?</h1>
-                  <br/>
-                  <button value = 'edward' onClick = { handleEdwardClick }>Team Edward</button>
-                  <button value = 'jacob' onClick = { handleJacobClick }>Team Jacob</button>
-
-                  <div id = 'edward-jacob'>
-                        {clicked ? <TeamRouter team = {team} /> : null}
+      
+      if (!clicked) {
+            return (
+                  <div id = 'app'>
+                        <h1>Edward or Jacob?</h1>
+                        <br/>
+                        <button value = 'edward' onClick = { handleEdwardClick }>Team Edward</button>
+                        <button value = 'jacob' onClick = { handleJacobClick }>Team Jacob</button>
                   </div>
-            </div>
-      )
+            )
+      }
+      else {
+            return (
+                  <div>
+                        <TeamRouter team = {team} />
+                  </div>
+            )
+      }
 }
 
 export default App;
