@@ -100,5 +100,39 @@
             "id" : 24,
             "quote" : "Say what you want, I still think Dracula One and Dracula Two are creep-tacular."
         }
+    ],
+    "edward_comments" : [
+        {
+            "id" : 0,
+            "author" : "Christian",
+            "comment" : "I tried on puffy paint and made myself sparkle! cool!"
+        },
+        {
+            "id" : 1,
+            "author" : "Lottie L.",
+            "comment" : "if i were a vampire... i would def be vegetarian too"
+        },
+        {
+            "id" : 2,
+            "author" : "Bailey P",
+            "comment" : "Edward is the best vampire character EVER written!"
+        }
+    ],
+    "jacob_comments" : [
+        {
+            "id" : 0,
+            "author" : "Annie C",
+            "comment" : "I wanna be a real werewolf!!!"
+        },
+        {
+            "id" : 1,
+            "author" : "Bianca",
+            "comment" : "I would DIE to be Reenneessmmee!"
+        },
+        {
+            "id" : 2,
+            "author" : "Tyler Sharpe",
+            "comment" : "jacob was ruined in breaking dawn ugh"
+        }
     ]
 }
