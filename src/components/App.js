@@ -1,35 +1,33 @@
 import React, { useState } from "react";
 
-import TeamEdward from "./TeamEdward";
-import TeamJacob from "./TeamJacob";
+import TeamRouter from "./TeamRouter";
 
 function App() {
-
       const [clicked, setClicked] = useState(false);
       const [team, setTeam] = useState('');
 
-      if (team === 'edward' || team === 'jacob') {
+      function handleEdwardClick() {
             setClicked(true);
+            setTeam('edward');
       }
 
-      if (!clicked) {
-            return (
-                  <div id = 'app'>
-                        <h1>Edward or Jacob?</h1>
-                        <br/>
-                        <button value = 'edward' onClick = { () => setTeam('edward') }>Team Edward</button>
-                        <button value = 'jacob' onClick = { () => setTeam('jacob') }>Team Jacob</button>
+      function handleJacobClick() {
+            setClicked(true);
+            setTeam('jacob');
+      }
+
+      return (
+            <div id = 'app'>
+                  <h1>Edward or Jacob?</h1>
+                  <br/>
+                  <button value = 'edward' onClick = { handleEdwardClick }>Team Edward</button>
+                  <button value = 'jacob' onClick = { handleJacobClick }>Team Jacob</button>
+
+                  <div id = 'edward-jacob'>
+                        {clicked ? <TeamRouter team = {team} /> : null}
                   </div>
-            );
-      }
-      else {
-            if (team === 'edward') {
-                  <TeamEdward />
-            }
-            else if (team === 'jacob') {
-                  <TeamJacob />
-            }
-      }
+            </div>
+      )
 }
 
 export default App;

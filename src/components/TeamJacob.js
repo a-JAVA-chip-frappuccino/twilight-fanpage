@@ -2,7 +2,9 @@ import React from "react";
 
 function TeamJacob() {
     return (
-        <div></div>
+        <div>
+            <h1>testing route</h1>
+        </div>
     )
 }
 
