@@ -1,9 +1,24 @@
 import React from "react";
 
+import RandomQuote from "./RandomQuote";
+
 function TeamJacob() {
     return (
-        <div>
-            <h1>testing route</h1>
+        <div className = 'team'>
+            <img src = "./fonts/teamjacob_header.gif" alt = "we are team jacob" />
+            <RandomQuote />
+            <div className = 'align-left'>
+                <p>
+                    We are team Jacob.
+                    We howl at the moon, we transform under the cover of darkness, and we follow the alpha.
+                    We know we must be lone wolves, but have the protection of the pack.
+                    We are werewolves.
+                    We are team Jacob.
+                </p>
+            </div>
+            <div className = 'align-right'>
+                
+            </div>
         </div>
     )
 }
