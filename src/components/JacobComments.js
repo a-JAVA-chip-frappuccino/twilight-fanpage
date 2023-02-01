@@ -20,6 +20,7 @@ function JacobComments() {
     else {
         return (
             <div className = "comments">
+                <img src = "../fonts/comments_header.gif" alt = "comments" />
                 {comments.map((comment) => (
                     <Comment
                         key = {comment.id}
