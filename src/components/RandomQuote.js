@@ -11,7 +11,6 @@ function RandomQuote() {
     }, [])
 
     function renderRandomQuote(quotes) {
-        console.log("here")
         const randInt = Math.floor(Math.random(1) * quotes.length);
         setQuote(quotes[randInt].quote);
     }

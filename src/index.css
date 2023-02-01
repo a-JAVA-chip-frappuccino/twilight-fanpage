@@ -40,16 +40,18 @@ html, body {
 }
 
 .align-left {
-    background-color: rgb(98, 28, 39);
+    background-color: rgb(48, 37, 39);
     float: left;
-    width: 35%;
+    width: 49%;
     padding: 30px;
 }
 
-.align-left p {
-    font-family: 'Twilight';
-    font-size: 17px;
-    color: white;
+.align-right {
+    background-image: linear-gradient(rgb(123, 38, 38), rgb(241, 241, 185));
+    float: right;
+    width: 44%;
+    margin-top: 55px;
+    padding: 0px;
 }
 
 /* RandomQuote component */
@@ -59,4 +61,15 @@ html, body {
     font-family: 'Twilight';
     color: red;
     text-shadow: 0 0 3px #d12222, 0 0 8px #490404;
+}
+
+/* Comment component */
+
+.comment {
+    border-style: dotted;
+    border-width: 4px;
+    border-color: white;
+
+    margin: 10px;
+    padding: 10px;
 }

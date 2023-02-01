@@ -1,28 +1,35 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 import Comment from "./Comment";
 
 function JacobComments() {
 
+    const [comments, setComments] = useState('');
+
     useEffect(() => {
         fetch("http://localhost:8004/jacob_comments")
             .then((response) => response.json())
-            .then((comments) => renderComments(comments))
+            .then((comments) => setComments(comments))
     }, [])
 
-    const comments = function renderComments(comments) {
-        comments.map((comment) => {
-            return <Comment
-                id = {comment.id}
-                author = {comment.author}
-                comment = {comment.comment}
-            />
-        })
+    if (!comments) {
+        return (
+            <div className = "comments"></div>
+        )
     }
-
-    return (
-        <div></div>
-    )
+    else {
+        return (
+            <div className = "comments">
+                <img src = "../fonts/comments_header.gif" alt = "comments" />
+                {comments.map((comment) => (
+                    <Comment
+                        key = {comment.id}
+                        author = {comment.author}
+                        comment = {comment.comment}
+                    />))}
+            </div>
+        )
+    }
 
 }
 
