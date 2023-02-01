@@ -47,7 +47,7 @@ html, body {
 }
 
 .align-right {
-    background-color: rgb(195, 153, 153);
+    background-image: linear-gradient(rgb(123, 38, 38), rgb(241, 241, 185));
     float: right;
     width: 44%;
     margin-top: 55px;
