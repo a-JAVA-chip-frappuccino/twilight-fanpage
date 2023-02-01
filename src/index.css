@@ -42,8 +42,16 @@ html, body {
 .align-left {
     background-color: rgb(48, 37, 39);
     float: left;
-    width: 47%;
+    width: 49%;
     padding: 30px;
+}
+
+.align-right {
+    background-color: rgb(195, 153, 153);
+    float: right;
+    width: 44%;
+    margin-top: 55px;
+    padding: 0px;
 }
 
 /* RandomQuote component */
@@ -53,4 +61,14 @@ html, body {
     font-family: 'Twilight';
     color: red;
     text-shadow: 0 0 3px #d12222, 0 0 8px #490404;
+}
+
+/* Comment component */
+
+.comment {
+    border-style: dotted;
+    border-width: 4px;
+    border-color: white;
+
+    margin: 10px;
 }
