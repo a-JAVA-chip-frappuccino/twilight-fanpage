@@ -40,16 +40,10 @@ html, body {
 }
 
 .align-left {
-    background-color: rgb(98, 28, 39);
+    background-color: rgb(48, 37, 39);
     float: left;
-    width: 35%;
+    width: 47%;
     padding: 30px;
-}
-
-.align-left p {
-    font-family: 'Twilight';
-    font-size: 17px;
-    color: white;
 }
 
 /* RandomQuote component */
