@@ -2,15 +2,15 @@ import React, { useState, useEffect } from "react";
 
 import Comment from "./Comment";
 
-function EdwardComments() {
+function Comments( { url } ) {
 
     const [comments, setComments] = useState('');
 
     useEffect(() => {
-        fetch("http://localhost:8004/edward_comments")
+        fetch(url)
             .then((response) => response.json())
             .then((comments) => setComments(comments))
-    }, [])
+    }, [comments])
 
     if (!comments) {
         return (
@@ -30,6 +30,7 @@ function EdwardComments() {
             </div>
         )
     }
+
 }
 
-export default EdwardComments;
+export default Comments;

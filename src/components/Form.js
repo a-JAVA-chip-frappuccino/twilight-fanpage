@@ -1,12 +1,13 @@
 import React, { useEffect } from "react";
 
 function Form( { url } ) {
+
     function handleSubmit(e) {
         e.preventDefault();
 
         const newComment = {
-            "author" : "Jessie Katz",
-            "comment" : "Blah blah blah something here"
+            "author" : e.target.author.value,
+            "comment" : e.target.comment.value
         }
 
         // useEffect(() => {
@@ -34,7 +35,7 @@ function Form( { url } ) {
             <br />
 
             <label>Name:</label>
-            <input type = 'text' name = 'name' />
+            <input type = 'text' name = 'author' />
 
             <br />
 
