@@ -2,6 +2,7 @@ import React from "react";
 
 import RandomQuote from "./RandomQuote";
 import EdwardComments from "./EdwardComments";
+import Form from "./Form";
 
 function TeamEdward() {
 
@@ -19,6 +20,7 @@ function TeamEdward() {
             </div>
             <div className = 'align-right'>
                 <EdwardComments />
+                <Form url = "http://localhost:8004/edward_comments" />
             </div>
         </div>
     )

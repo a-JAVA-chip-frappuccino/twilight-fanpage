@@ -2,6 +2,7 @@ import React from "react";
 
 import RandomQuote from "./RandomQuote";
 import JacobComments from "./JacobComments";
+import Form from "./Form";
 
 function TeamJacob() {
     return (
@@ -18,6 +19,7 @@ function TeamJacob() {
             </div>
             <div className = 'align-right'>
                 <JacobComments />
+                <Form url = "http://localhost:8004/jacob_comments" />
             </div>
         </div>
     )
