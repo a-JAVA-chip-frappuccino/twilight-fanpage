@@ -1,7 +1,8 @@
 import React from "react";
 
 import RandomQuote from "./RandomQuote";
-import EdwardComments from "./EdwardComments";
+import Comments from "./Comments";
+import Form from "./Form";
 
 function TeamEdward() {
 
@@ -18,7 +19,8 @@ function TeamEdward() {
                 <img src = "./fonts/weareteamedward.gif" alt = "we are team edward" />
             </div>
             <div className = 'align-right'>
-                <EdwardComments />
+                <Comments url = "http://localhost:8004/edward_comments" />
+                <Form url = "http://localhost:8004/edward_comments" />
             </div>
         </div>
     )

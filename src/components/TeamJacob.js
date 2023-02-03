@@ -1,9 +1,11 @@
 import React from "react";
 
 import RandomQuote from "./RandomQuote";
-import JacobComments from "./JacobComments";
+import Comments from "./Comments";
+import Form from "./Form";
 
 function TeamJacob() {
+    
     return (
         <div className = 'team'>
             <img src = "./fonts/teamjacob_header.gif" alt = "we are team jacob" />
@@ -17,7 +19,8 @@ function TeamJacob() {
                 <img src = "./fonts/weareteamjacob.gif" alt = "we are team jacob" />
             </div>
             <div className = 'align-right'>
-                <JacobComments />
+                <Comments url = "http://localhost:8004/jacob_comments" />
+                <Form url = "http://localhost:8004/jacob_comments" />
             </div>
         </div>
     )

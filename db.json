@@ -1,138 +1,143 @@
 {
-    "quotes" : [
-        {
-            "id" : 0,
-            "quote" : "And so the lion fell in love with the lamb..."
-        },
-        {
-            "id" : 1,
-            "quote" : "And third, I was unconditionally and irrevocably in love with him."
-        },
-        {
-            "id" : 2,
-            "quote" : "What if I'm not a superhero. What if I'm the bad guy?"
-        },
-        {
-            "id" : 3,
-            "quote" : "If I could dream at all, it would be about you."
-        },
-        {
-            "id" : 4,
-            "quote" : "Darkness is so predictable, don't you think?"
-        },
-        {
-            "id" : 5,
-            "quote" : "Stupid, shiny Volvo owner."
-        },
-        {
-            "id" : 6,
-            "quote" : "You're intoxicated by my very presence."
-        },
-        {
-            "id" : 7,
-            "quote" : "No blood, no foul."
-        },
-        {
-            "id" : 8,
-            "quote" : "Yes, you are exactly my brand of heroin."
-        },
-        {
-            "id" : 9,
-            "quote" : "Well, I'm so sorry that I can't be the right kind of monster for you, Bella."
-        },
-        {
-            "id" : 10,
-            "quote" : "The smile broke across his face the way the sunrise set the clouds on fire..."
-        },
-        {
-            "id" : 11,
-            "quote" : "No, Emmett, I punched a werewolf in the face."
-        },
-        {
-            "id" : 12,
-            "quote" : "I am Switzerland. I refuse to be affected by territorial disputes between mythical creatures."
-        },
-        {
-            "id" : 13,
-            "quote" : "Does it bother you, me being half naked all the time?"
-        },
-        {
-            "id" : 14,
-            "quote" : "And now look what's become of you! Trying to seduce a vampire."
-        },
-        {
-            "id" : 15,
-            "quote" : "How can someone so tiny be so annoying?"
-        },
-        {
-            "id" : 16,
-            "quote" : "Of course, you’d warm up faster if you took your clothes off."
-        },
-        {
-            "id" : 17,
-            "quote" : "Yes, because a vampire slumber party is the pinnacle of safety conscious behavior."
-        },
-        {
-            "id" : 18,
-            "quote" : "I was just wondering why you stabbed him. Not that I object."
-        },
-        {
-            "id" : 19,
-            "quote" : "If we could bottle your luck, we'd have a weapon of mass destruction on our hands."
-        },
-        {
-            "id" : 20,
-            "quote" : "You nicked-named my daughter after the Lock Ness Monster!"
-        },
-        {
-            "id" : 21,
-            "quote" : "Nudity was an inconvenient but unavoidable part of pack life."
-        },
-        {
-            "id" : 22,
-            "quote" : "And then I saw the way he looked at her... like he was a blind man, seeing the sun for the very first time."
-        },
-        {
-            "id" : 23,
-            "quote" : "I'm joining your crappy little renegade pack. The vampires' guard dogs."
-        },
-        {
-            "id" : 24,
-            "quote" : "Say what you want, I still think Dracula One and Dracula Two are creep-tacular."
-        }
-    ],
-    "edward_comments" : [
-        {
-            "id" : 0,
-            "author" : "Christian",
-            "comment" : "I tried on puffy paint and made myself sparkle! cool!"
-        },
-        {
-            "id" : 1,
-            "author" : "Lottie L.",
-            "comment" : "if i were a vampire... i would def be vegetarian too"
-        },
-        {
-            "id" : 2,
-            "author" : "Bailey P",
-            "comment" : "Edward is the best vampire character EVER written!"
-        }
-    ],
-    "jacob_comments" : [
-        {
-            "id" : 0,
-            "author" : "Annie C",
-            "comment" : "I wanna be a real werewolf!!!"
-        },
-        {
-            "id" : 1,
-            "author" : "Bianca",
-            "comment" : "I would DIE to be Reenneessmmee!"
-        },
-        {
-            "id" : 2,
-            "author" : "Tyler Sharpe",
-            "comment" : "jacob was ruined in breaking dawn ugh"
-        }
-    ]
+  "quotes": [
+    {
+      "id": 0,
+      "quote": "And so the lion fell in love with the lamb..."
+    },
+    {
+      "id": 1,
+      "quote": "And third, I was unconditionally and irrevocably in love with him."
+    },
+    {
+      "id": 2,
+      "quote": "What if I'm not a superhero. What if I'm the bad guy?"
+    },
+    {
+      "id": 3,
+      "quote": "If I could dream at all, it would be about you."
+    },
+    {
+      "id": 4,
+      "quote": "Darkness is so predictable, don't you think?"
+    },
+    {
+      "id": 5,
+      "quote": "Stupid, shiny Volvo owner."
+    },
+    {
+      "id": 6,
+      "quote": "You're intoxicated by my very presence."
+    },
+    {
+      "id": 7,
+      "quote": "No blood, no foul."
+    },
+    {
+      "id": 8,
+      "quote": "Yes, you are exactly my brand of heroin."
+    },
+    {
+      "id": 9,
+      "quote": "Well, I'm so sorry that I can't be the right kind of monster for you, Bella."
+    },
+    {
+      "id": 10,
+      "quote": "The smile broke across his face the way the sunrise set the clouds on fire..."
+    },
+    {
+      "id": 11,
+      "quote": "No, Emmett, I punched a werewolf in the face."
+    },
+    {
+      "id": 12,
+      "quote": "I am Switzerland. I refuse to be affected by territorial disputes between mythical creatures."
+    },
+    {
+      "id": 13,
+      "quote": "Does it bother you, me being half naked all the time?"
+    },
+    {
+      "id": 14,
+      "quote": "And now look what's become of you! Trying to seduce a vampire."
+    },
+    {
+      "id": 15,
+      "quote": "How can someone so tiny be so annoying?"
+    },
+    {
+      "id": 16,
+      "quote": "Of course, you’d warm up faster if you took your clothes off."
+    },
+    {
+      "id": 17,
+      "quote": "Yes, because a vampire slumber party is the pinnacle of safety conscious behavior."
+    },
+    {
+      "id": 18,
+      "quote": "I was just wondering why you stabbed him. Not that I object."
+    },
+    {
+      "id": 19,
+      "quote": "If we could bottle your luck, we'd have a weapon of mass destruction on our hands."
+    },
+    {
+      "id": 20,
+      "quote": "You nicked-named my daughter after the Lock Ness Monster!"
+    },
+    {
+      "id": 21,
+      "quote": "Nudity was an inconvenient but unavoidable part of pack life."
+    },
+    {
+      "id": 22,
+      "quote": "And then I saw the way he looked at her... like he was a blind man, seeing the sun for the very first time."
+    },
+    {
+      "id": 23,
+      "quote": "I'm joining your crappy little renegade pack. The vampires' guard dogs."
+    },
+    {
+      "id": 24,
+      "quote": "Say what you want, I still think Dracula One and Dracula Two are creep-tacular."
+    }
+  ],
+  "edward_comments": [
+    {
+      "id": 0,
+      "author": "Christian",
+      "comment": "I tried on puffy paint and made myself sparkle! cool!"
+    },
+    {
+      "id": 1,
+      "author": "Lottie L.",
+      "comment": "if i were a vampire... i would def be vegetarian too"
+    },
+    {
+      "id": 2,
+      "author": "Bailey P",
+      "comment": "Edward is the best vampire character EVER written!"
+    },
+    {
+      "author": "Riley",
+      "comment": "I want to be a Cullen so baaaaaaaad!!!!1",
+      "id": 3
+    }
+  ],
+  "jacob_comments": [
+    {
+      "id": 0,
+      "author": "Annie C",
+      "comment": "I wanna be a real werewolf!!!"
+    },
+    {
+      "id": 1,
+      "author": "Bianca",
+      "comment": "I would DIE to be Reenneessmmee!"
+    },
+    {
+      "id": 2,
+      "author": "Tyler Sharpe",
+      "comment": "jacob was ruined in breaking dawn ugh"
+    }
+  ]
 }
