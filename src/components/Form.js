@@ -10,7 +10,6 @@ function Form( { url } ) {
             "comment" : e.target.comment.value
         }
 
-        // useEffect(() => {
             fetch(url, {
                 method : 'POST',
                 headers : {
@@ -21,7 +20,6 @@ function Form( { url } ) {
             })
             .then((response) => response.json())
             .then(console.log(newComment))
-        // }, [])
     }
 
     return(
