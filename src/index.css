@@ -73,3 +73,34 @@ html, body {
     margin: 10px;
     padding: 10px;
 }
+
+/* blood droplets on background */
+
+i {
+    width: 15px;
+    height: 15px;
+    background-color: rgb(70, 10, 14);
+    border-radius: 50%;
+    box-shadow: 0 0 10px 5px rgba(rgb(0, 0, 0), 0.8);
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    transform: rotate(30deg);
+    animation: shine;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    opacity: 0.7;
+}
+  
+@keyframes shine{
+
+    0%{
+        transform: scale(0.1) rotate(-200deg);
+    }
+    55%{
+        transform: scale(1.2) rotate(180deg);
+    }
+    100%{
+        transform: scale(0.1) rotate(-200deg);
+    }
+    
+  }
