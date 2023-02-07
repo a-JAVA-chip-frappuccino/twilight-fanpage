@@ -6,7 +6,7 @@ function Comments( { url } ) {
 
     const [comments, setComments] = useState('');
 
-    useEffect(() => {
+    useEffect( () => {
         fetch(url)
             .then((response) => response.json())
             .then((comments) => setComments(comments))
