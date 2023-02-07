@@ -88,6 +88,7 @@ i {
     animation: shine;
     animation-duration: 9s;
     animation-iteration-count: infinite;
+    opacity: 0.7;
 }
   
 @keyframes shine{
