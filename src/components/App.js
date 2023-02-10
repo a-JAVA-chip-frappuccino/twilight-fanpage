@@ -15,7 +15,7 @@ function App() {
             setClicked(true);
             setTeam('jacob');
       }
-      
+
       if (!clicked) {
             return (
                   <div id = 'app'>
