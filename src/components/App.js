@@ -6,6 +6,23 @@ function App() {
       const [clicked, setClicked] = useState(false);
       const [team, setTeam] = useState('');
 
+      const [playMusic, setPlayMusic] = useState(false);
+
+      if (playMusic) {
+  
+            const song = new Audio("../sounds/supermassiveblackhole-muse.mp3");
+            
+            song.volume = 0.2;
+            
+            song.play();
+            
+            song.addEventListener('ended', function() {
+                  this.currentTime = 0;
+                  this.play();
+            }, false);
+
+      }
+
       function handleEdwardClick() {
             setClicked(true);
             setTeam('edward');
@@ -19,6 +36,7 @@ function App() {
       if (!clicked) {
             return (
                   <div id = 'app'>
+                        <button onClick = { () => setPlayMusic(true) }>music button</button>
                         <h1>Edward or Jacob?</h1>
                         <br/>
                         <button value = 'edward' onClick = { handleEdwardClick }>Team Edward</button>
