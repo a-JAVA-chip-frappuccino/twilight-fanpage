@@ -28,19 +28,4 @@ document.addEventListener("DOMContentLoaded", function() {
     
 });
 
-document.addEventListener("DOMContentLoaded", function() {
-  
-  const song = new Audio("../sounds/supermassiveblackhole-muse.mp3");
-
-  song.volume = 0.2;
-
-  song.play();
-
-  song.addEventListener('ended', function() {
-    this.currentTime = 0;
-    this.play();
-}, false);
-
-});
-
 ReactDOM.render(<App />, document.getElementById('root'));

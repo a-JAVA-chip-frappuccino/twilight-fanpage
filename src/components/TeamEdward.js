@@ -1,5 +1,6 @@
 import React from "react";
 
+import MusicPlayer from "./MusicPlayer";
 import RandomQuote from "./RandomQuote";
 import Comments from "./Comments";
 import Form from "./Form";
@@ -8,6 +9,7 @@ function TeamEdward() {
 
     return (
         <div className = 'team'>
+            <MusicPlayer />
             <img src = "./fonts/teamedward_header.gif" alt = "we are team edward" />
             <RandomQuote />
             <div className = 'align-left'>
