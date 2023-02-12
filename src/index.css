@@ -104,3 +104,27 @@ i {
     }
     
   }
+
+  /* music player component */
+
+  .player {
+    margin: auto;
+  }
+
+  .arrow {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid rgb(0, 0, 0);
+    writing-mode: vertical-lr;
+    -webkit-transform: rotate(90deg);
+  }
+
+  .player button {
+    font: Arial;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 6px;
+    border-radius: 4px;
+  }
