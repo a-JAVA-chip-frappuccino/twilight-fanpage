@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 
+const song = new Audio("../sounds/supermassiveblackhole-muse.mp3");
+
 function MusicPlayer() {
 
     const [playMusic, setPlayMusic] = useState(false);
 
     console.log(playMusic);
-
-    const song = new Audio("../sounds/supermassiveblackhole-muse.mp3");
 
     function handleClick() {
         setPlayMusic(!playMusic)
